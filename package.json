@@ -1,0 +1,15 @@
+{
+  "name": "inspirational-quote-generator",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "quote_controller.mjs",
+  "scripts": {
+    "start": "node quote_controller.mjs",
+    "development": "nodemon quote_controller.mjs"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "dotenv": "^16.4.1"
+  }
+}

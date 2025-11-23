@@ -1,0 +1,4 @@
+@PORT = 55443
+
+### Get random quote
+GET http://localhost:{{PORT}}/get/quote
